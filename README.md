@@ -1,70 +1,60 @@
-# Getting Started with Create React App
+# Web Development Project 3 - *Flashcards App*
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Submitted by: **Mark Kamuya**
 
-## Available Scripts
+This web app: **Programming Languages Flashcards Trivia is an interactive web application that helps users test and improve their knowledge of popular programming languages. The app presents questions about languages like JavaScript, Python, Java, C++, and more. Users can answer the questions, mark them as "mastered" once they get them correct, and track their progress with streaks. The app also allows users to shuffle the cards, navigate through the quiz, and try again if they make a mistake. Once all questions are mastered, a congratulatory message appears, and users can restart the quiz.**
 
-In the project directory, you can run:
+Time spent: **4** hours spent in total
 
-### `npm start`
+## Required Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The following **required** functionality is completed:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [X] **The user can enter their guess in a box before seeing the flipside of the card**
+- [X] **Clicking on a submit button shows visual feedback about whether the answer was correct or incorrect**
+- [X] **A back button is displayed on the card and can be used to return to the previous card in a set sequence**
+- [X] **A next button is displayed on the card and can be used to navigate to the next card in a set sequence**
 
-### `npm test`
+The following **optional** features are implemented:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [X] A shuffle button is used to randomize the order of the cards
+- [X] A user's answer may be counted as correct even when it is slightly different from the target answer
+- [X] A counter displays the user's current and longest streak of correct responses
+- [X] A user can mark a card that they have mastered and have it removed from the pool of answers as well as added to a list of mastered cards
 
-### `npm run build`
+The following **additional** features are implemented:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [ ] List anything else that you added to improve the site's functionality!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Video Walkthrough
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here's a walkthrough of implemented user stories:
 
-### `npm run eject`
+<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<!-- Replace this with whatever GIF tool you used! -->
+GIF created with ...  
+<!-- Recommended tools:
+[Kap](https://getkap.co/) for macOS
+[ScreenToGif](https://www.screentogif.com/) for Windows
+[peek](https://github.com/phw/peek) for Linux. -->
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Notes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Describe any challenges encountered while building the app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+    Copyright [2025] [Mark Kamuya]
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+        http://www.apache.org/licenses/LICENSE-2.0
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
