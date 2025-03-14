@@ -1,38 +1,76 @@
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: yellow;
+  height: 100vh;
+  color: white;
+  overflow: hidden;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App h1{
+  font-family: 'Press Start 2P', cursive;
+  color: black;
+  margin-top: 4%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.App h1:hover {
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; /* White glow effect */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App h3{
+  color: black;
+  margin-top: 2%;
+}
+.App h3:hover {
+  text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white; /* White glow effect */
+}
+.flashcards {
+  border-radius: 45px;
+  text-align: center;
+  padding: 20px;
+  margin-left: 25%;
+  margin-top: 7%;
+  background-color: black;
+  width: 50%;
+}
+.flashcards:hover{
+  background-color: white;
+  color: black;
+}
+button {
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.flashcards:hover button{
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.flashcards:hover button:hover{
+  background-color: #4caf50;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 80%;
+  margin-top: 10px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-bottom: 45px;
+}
+.flashcard:hover input{
+  background-color: black;
+  color: white;
+}
+button:hover {
+  background-color: #4caf50;
+}
+.completion-message h4{
+  color: white;
+}
+.flashcards:hover .completion-message h4{
+  color: black;
 }
